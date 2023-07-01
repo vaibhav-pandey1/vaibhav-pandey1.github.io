@@ -1,7 +1,7 @@
 body {
 	margin-top: 2%;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
         background-color: #FFFFFF
 }
 
@@ -31,7 +31,7 @@ img#vp{
 #navigation-bar {
 	border: 1px #000 solid;
 	text-align: center;
-  background-color: #244B78;
+  background-color: #521a52;
 }
 
 
