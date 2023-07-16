@@ -15,8 +15,8 @@ img#vp{
 
 #rightcolumn {
 	width: 83%;
-	float: left;
-	margin-left: 2%;
+	float: center;
+	margin-left: 0%;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -42,6 +42,6 @@ img#vp{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #878787;
   color: white;
 }
