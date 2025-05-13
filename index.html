@@ -72,9 +72,28 @@
         <li>August 2011 – July 2016: Integrated M.Sc. in Mathematics, NISER, Bhubaneswar, India</li>
       </ul>
     </section>
-<a href="https://hits.sh/vaibhav-pandey1.github.io/">
-  <img alt="Hits" style="border: 0px; margin: 0px;" src="https://hits.sh/vaibhav-pandey1.github.io.svg?view=today-total"/>
-</a>
+<!-- Visitor Counter, visible only with secret key -->
+<div id="visitor-wrapper" style="display: none; font-size: 0.9em; margin-top: 20px;">
+  <strong>Visitor count:</strong> <span id="visitor-count">Loading...</span>
+</div>
+
+<script>
+  // Only show if correct secret is in the query string
+  const params = new URLSearchParams(window.location.search);
+  const secret = params.get('showcounter');
+  const yourSecretKey = 'pandey94'; // change this to your secret
+
+  if (secret === yourSecretKey) {
+    document.getElementById('visitor-wrapper').style.display = 'block';
+
+    fetch('https://api.countapi.xyz/hit/vaibhav-pandey1.github.io/homepage-visits')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('visitor-count').textContent = data.value;
+      });
+  }
+</script>
+
 
 
 
