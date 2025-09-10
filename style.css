@@ -45,3 +45,6 @@ img#vp{
   background-color: #878787;
   color: white;
 }
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
