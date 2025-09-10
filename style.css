@@ -1,23 +1,23 @@
 body {
-  margin-top: 2%;
-  margin-left: 20%;
-  margin-right: 20%;
-  background-color: #FFFFFF;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+        background-color: #FFFFFF
 }
 
-img#vp {
+img#vp{
   float: right;
-  vertical-align: top;  /* Fixed '=' → ':' */
+  vertical-align= top;
   width: 30%;
   border: 1px #000 solid;
 }
 
-#rightcolumn {
-  width: 100%;
-  margin-left: 0%;
-  /* Removed float: center; because it's invalid */
-}
 
+#rightcolumn {
+	width: 100%;
+	float: center;
+	margin-left: 0%;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
