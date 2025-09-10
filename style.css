@@ -3,7 +3,6 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   background-color: #FFFFFF;
-  font-family: "Helvetica", "Arial", sans-serif; /* Added */
 }
 
 img#vp {
@@ -46,4 +45,3 @@ img#vp {
   background-color: #878787;
   color: white;
 }
-
